@@ -3,69 +3,43 @@ import { Calendar, Users, Award, MapPin } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
+import ideathonImage from '@/assets/events/ideathon.png';
+import biddingBlitzImage from '@/assets/events/bidding-blitz.png';
+import codingThinkersImage from '@/assets/events/coding-thinkers.png';
+
 const EventsSection = () => {
   const events = [
-    {
-      title: "Startup Pitch Competition 2024",
-      date: "March 15-17, 2024",
-      location: "Main Auditorium",
-      participants: "200+ participants",
-      description: "Annual pitch competition where students present their innovative business ideas to a panel of industry experts and investors.",
-      image: "🚀",
-      status: "completed",
-      prize: "₹5,00,000"
-    },
-    {
-      title: "Entrepreneurship Summit",
-      date: "February 10, 2024",
-      location: "Convention Center",
-      participants: "500+ attendees",
-      description: "A day-long summit featuring keynote speakers, panel discussions, and networking sessions with successful entrepreneurs.",
-      image: "🏆",
-      status: "completed",
-      prize: "Knowledge & Network"
-    },
-    {
-      title: "Innovation Workshop Series",
-      date: "January 20-22, 2024",
-      location: "Innovation Lab",
-      participants: "150+ students",
-      description: "Three-day intensive workshop on design thinking, product development, and business model canvas.",
-      image: "💡",
-      status: "completed",
-      prize: "Certificates"
-    },
-    {
-      title: "Startup Bootcamp",
-      date: "December 5-7, 2023",
-      location: "E-Cell Hub",
-      participants: "100+ participants",
-      description: "Intensive bootcamp covering all aspects of starting a business from ideation to launch.",
-      image: "⚡",
-      status: "completed",
-      prize: "Mentorship"
-    },
-    {
-      title: "Business Plan Competition",
-      date: "November 15, 2023",
-      location: "Business School",
-      participants: "80+ teams",
-      description: "Competition focused on developing comprehensive business plans with market analysis and financial projections.",
-      image: "📊",
-      status: "completed",
-      prize: "₹2,00,000"
-    },
-    {
-      title: "Tech Startup Expo",
-      date: "October 20-21, 2023",
-      location: "Tech Park",
-      participants: "300+ visitors",
-      description: "Exhibition showcasing innovative tech startups and their products to potential investors and customers.",
-      image: "🌟",
-      status: "completed",
-      prize: "Funding Opportunity"
-    }
-  ];
+  {
+    title: "Ideathon",
+    date: "April 5, 2024",
+    location: "Innovation Hall",
+    participants: "250+ thinkers",
+    description: "A creative brainstorming event where ideas meet purpose and innovation.",
+    image: ideathonImage,
+    status: "completed",
+    prize: "Startup Funding"
+  },
+  {
+    title: "Bidding Blitz",
+    date: "April 12, 2024",
+    location: "Auditorium",
+    participants: "120+ teams",
+    description: "A fun strategic event where participants outbid each other to win mystery challenges.",
+    image: biddingBlitzImage,
+    status: "completed",
+    prize: "₹1,00,000"
+  },
+  {
+    title: "Coding Thinkers",
+    date: "April 20, 2024",
+    location: "Coding Arena",
+    participants: "200+ developers",
+    description: "Where logic meets creativity. A coding event filled with innovative problem solving.",
+    image: codingThinkersImage,
+    status: "completed",
+    prize: "Goodies + Internship Opportunities"
+  }
+];
 
   return (
     <section id="events" className="py-20 relative">
@@ -88,11 +62,17 @@ const EventsSection = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <CardContent className="p-0">
-                {/* Event Header */}
+                {/* 📸 Event Image */}
+                <img
+                  src={event.image}
+                  alt={event.title}
+                  className="w-full h-48 object-cover"
+                />
+
+                {/* 📄 Event Info */}
                 <div className="bg-gradient-to-r from-gold-500/20 to-blue-500/20 p-6 border-b border-slate-700">
-                  <div className="text-4xl mb-4 text-center">{event.image}</div>
-                  <h3 className="text-xl font-semibold text-white mb-2">{event.title}</h3>
-                  <div className="flex items-center text-slate-300 text-sm space-x-4">
+                  <h3 className="text-xl font-semibold text-white mb-2 text-center">{event.title}</h3>
+                  <div className="flex items-center justify-center text-slate-300 text-sm space-x-4">
                     <div className="flex items-center space-x-1">
                       <Calendar className="h-4 w-4 text-gold-400" />
                       <span>{event.date}</span>
@@ -100,7 +80,7 @@ const EventsSection = () => {
                   </div>
                 </div>
 
-                {/* Event Details */}
+                {/* 📌 Event Details */}
                 <div className="p-6 space-y-4">
                   <p className="text-slate-300 text-sm leading-relaxed">
                     {event.description}
@@ -132,7 +112,7 @@ const EventsSection = () => {
           ))}
         </div>
 
-        {/* Call to Action */}
+        {/* 🎯 Call to Action */}
         <div className="text-center mt-16">
           <div className="bg-gradient-to-r from-slate-800/50 to-slate-900/50 rounded-2xl p-8 border border-slate-700 backdrop-blur-sm max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold text-white mb-4">
