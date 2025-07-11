@@ -25,45 +25,45 @@ const HeroSection = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                size="lg" 
-                className="bg-gradient-to-r from-gold-500 to-gold-600 text-slate-900 hover:from-gold-600 hover:to-gold-700 text-lg px-8 py-3"
-              >
-                Join E-Cell
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
+              {/* <Button  */}
+                {/* size="lg"  */}
+                {/* className="bg-gradient-to-r from-gold-500 to-gold-600 text-slate-900 hover:from-gold-600 hover:to-gold-700 text-lg px-8 py-3" */}
+              {/* > */}
+                {/* Join E-Cell */}
+                {/* <ArrowRight className="ml-2 h-5 w-5" /> */}
+              {/* </Button> */}
               <Button 
                 size="lg" 
                 variant="outline"
                 className="border-gold-400 text-gold-400 hover:bg-gold-400 hover:text-slate-900 text-lg px-8 py-3"
               >
-                Our Events
+                <a href="/#events">Our Events</a>
               </Button>
             </div>
 
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 pt-8">
-              <div className="text-center">
-                <div className="flex items-center justify-center mb-2">
-                  <Users className="h-8 w-8 text-gold-400" />
-                </div>
-                <div className="text-3xl font-bold text-white">500+</div>
-                <div className="text-slate-400">Members</div>
-              </div>
-              <div className="text-center">
-                <div className="flex items-center justify-center mb-2">
-                  <Rocket className="h-8 w-8 text-blue-400" />
-                </div>
-                <div className="text-3xl font-bold text-white">50+</div>
-                <div className="text-slate-400">Startups</div>
-              </div>
-              <div className="text-center">
-                <div className="flex items-center justify-center mb-2">
-                  <Trophy className="h-8 w-8 text-gold-400" />
-                </div>
-                <div className="text-3xl font-bold text-white">25+</div>
-                <div className="text-slate-400">Events</div>
-              </div>
+              {/* <div className="text-center"> */}
+                {/* <div className="flex items-center justify-center mb-2"> */}
+                  {/* <Users className="h-8 w-8 text-gold-400" /> */}
+                {/* </div> */}
+                {/* <div className="text-3xl font-bold text-white">500+</div> */}
+                {/* <div className="text-slate-400">Members</div> */}
+              {/* </div> */}
+              {/* <div className="text-center"> */}
+                {/* <div className="flex items-center justify-center mb-2"> */}
+                  {/* <Rocket className="h-8 w-8 text-blue-400" /> */}
+                {/* </div> */}
+                {/* <div className="text-3xl font-bold text-white">50+</div> */}
+                {/* <div className="text-slate-400">Startups</div> */}
+              {/* </div> */}
+              {/* <div className="text-center"> */}
+                {/* <div className="flex items-center justify-center mb-2"> */}
+                  {/* <Trophy className="h-8 w-8 text-gold-400" /> */}
+                {/* </div> */}
+                {/* <div className="text-3xl font-bold text-white">25+</div> */}
+                {/* <div className="text-slate-400">Events</div> */}
+              {/* </div> */}
             </div>
           </div>
 

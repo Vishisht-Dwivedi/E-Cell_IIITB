@@ -29,8 +29,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold mb-1">Email Us</h4>
-                    <p className="text-slate-300">contact@ecell.college.edu</p>
-                    <p className="text-slate-300">events@ecell.college.edu</p>
+                    <p className="text-slate-300">ecelliiitbhopal@gmail.com</p>
                   </div>
                 </div>
 
@@ -40,8 +39,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold mb-1">Call Us</h4>
-                    <p className="text-slate-300">+91 9876543210</p>
-                    <p className="text-slate-300">+91 9876543211</p>
+                    <p className="text-slate-300">+91 6390995058 {`Sameer Chandra`}</p>
+                    <p className="text-slate-300">+91 7988700736 {`Vikas Kaushik`}</p>
                   </div>
                 </div>
 
@@ -54,7 +53,7 @@ const ContactSection = () => {
                     <p className="text-slate-300">Administrative Office</p>
                     <p className="text-slate-300">New Teaching Block</p>
                     <p className="text-slate-300">MANIT</p>
-                    <p className="text-slate-300">Bhopal, Madhya Pradesh - 262042</p>
+                    <p className="text-slate-300">Bhopal, Madhya Pradesh - 462003</p>
                   </div>
                 </div>
               </div>
@@ -65,22 +64,16 @@ const ContactSection = () => {
               <h3 className="text-2xl font-bold text-white mb-6">Follow Us</h3>
               <div className="flex space-x-4">
                 <a 
-                  href="#" 
+                  href="https://www.instagram.com/ecell_iiitbpl/" 
                   className="w-12 h-12 bg-gradient-to-br from-pink-500/20 to-pink-600/20 rounded-full flex items-center justify-center border border-pink-400/30 hover:scale-110 transition-transform duration-300"
                 >
                   <Instagram className="h-6 w-6 text-pink-400" />
                 </a>
                 <a 
-                  href="#" 
+                  href="https://www.linkedin.com/company/iiitbhopal-ecell/posts/?feedView=all" 
                   className="w-12 h-12 bg-gradient-to-br from-blue-500/20 to-blue-600/20 rounded-full flex items-center justify-center border border-blue-400/30 hover:scale-110 transition-transform duration-300"
                 >
                   <Linkedin className="h-6 w-6 text-blue-400" />
-                </a>
-                <a 
-                  href="#" 
-                  className="w-12 h-12 bg-gradient-to-br from-sky-500/20 to-sky-600/20 rounded-full flex items-center justify-center border border-sky-400/30 hover:scale-110 transition-transform duration-300"
-                >
-                  <Twitter className="h-6 w-6 text-sky-400" />
                 </a>
               </div>
             </div>

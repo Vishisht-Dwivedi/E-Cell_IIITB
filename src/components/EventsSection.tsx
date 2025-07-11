@@ -17,7 +17,7 @@ const EventsSection = () => {
     description: "A creative brainstorming event where ideas meet purpose and innovation.",
     image: ideathonImage,
     status: "completed",
-    prize: "Startup Funding"
+    prize: "Rewards worth 50k+"
   },
   {
     title: "Bidding Blitz",
@@ -27,7 +27,7 @@ const EventsSection = () => {
     description: "A fun strategic event where participants outbid each other to win mystery challenges.",
     image: biddingBlitzImage,
     status: "completed",
-    prize: "₹1,00,000"
+    prize: "₹50,000"
   },
   {
     title: "Coding Thinkers",
@@ -123,11 +123,8 @@ const EventsSection = () => {
               and join our newsletter to get notified about new opportunities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-gradient-to-r from-gold-500 to-gold-600 text-slate-900 hover:from-gold-600 hover:to-gold-700">
-                Subscribe to Newsletter
-              </Button>
               <Button variant="outline" className="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-slate-900">
-                Follow on Social Media
+                <a href="https://www.instagram.com/ecell_iiitbpl/">Follow on Social Media</a>
               </Button>
             </div>
           </div>

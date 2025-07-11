@@ -47,20 +47,14 @@ const Header = () => {
               Events
             </button>
             <button
-              onClick={() => scrollToSection('sponsors')}
-              className="text-slate-300 hover:text-gold-400 transition-colors"
-            >
-              Sponsors
-            </button>
-            <button
               onClick={() => scrollToSection('contact')}
               className="text-slate-300 hover:text-gold-400 transition-colors"
             >
               Contact
             </button>
-            <Button className="bg-gradient-to-r from-gold-500 to-gold-600 text-slate-900 hover:from-gold-600 hover:to-gold-700">
-              Join Us
-            </Button>
+            {/* <Button className="bg-gradient-to-r from-gold-500 to-gold-600 text-slate-900 hover:from-gold-600 hover:to-gold-700"> */}
+              {/* Join Us */}
+            {/* </Button> */}
           </nav>
 
           {/* Mobile Menu Button */}
@@ -106,9 +100,9 @@ const Header = () => {
               >
                 Contact
               </button>
-              <Button className="bg-gradient-to-r from-gold-500 to-gold-600 text-slate-900 hover:from-gold-600 hover:to-gold-700 w-fit">
-                Join Us
-              </Button>
+              {/* <Button className="bg-gradient-to-r from-gold-500 to-gold-600 text-slate-900 hover:from-gold-600 hover:to-gold-700 w-fit"> */}
+                {/* Join Us */}
+              {/* </Button> */}
             </nav>
           </div>
         )}

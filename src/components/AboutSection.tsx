@@ -95,10 +95,10 @@ const AboutSection = () => {
                   Whether you're a budding entrepreneur or an experienced founder, 
                   there's a place for you in our E-Cell family.
                 </p>
-                <div className="pt-4">
-                  <div className="text-4xl font-bold text-gold-400 mb-2">1000+</div>
-                  <div className="text-slate-400">Success Stories</div>
-                </div>
+                {/* <div className="pt-4"> */}
+                  {/* <div className="text-4xl font-bold text-gold-400 mb-2">1000+</div> */}
+                  {/* <div className="text-slate-400">Success Stories</div> */}
+                {/* </div> */}
               </div>
             </div>
           </div>
