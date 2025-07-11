@@ -77,7 +77,7 @@ const HeroSection = () => {
                   <div className="relative w-80 h-80">
                     {/* Central icon */}
                     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-20 bg-gradient-to-br from-gold-500 to-gold-600 rounded-full flex items-center justify-center animate-glow">
-                      <Rocket className="h-10 w-10 text-slate-900" />
+                      <img src="/logo.png" alt="" />
                     </div>
                     
                     {/* Orbiting elements */}

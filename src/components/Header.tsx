@@ -21,7 +21,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-gradient-to-br from-gold-500 to-gold-600 rounded-lg flex items-center justify-center">
-              <span className="text-slate-900 font-bold text-xl">E</span>
+              <span className="text-slate-900 font-bold text-xl"><img src="/logo.png" alt="E-Cell" /></span>
             </div>
             <span className="text-2xl font-bold text-white">E-Cell</span>
           </div>

@@ -29,7 +29,7 @@ const LoadingScreen = () => {
         {/* Logo Animation */}
         <div className="mb-8">
           <div className="w-24 h-24 bg-gradient-to-br from-gold-500 to-gold-600 rounded-full flex items-center justify-center mx-auto animate-glow">
-            <Rocket className="h-12 w-12 text-slate-900 animate-float" />
+            <img src="/logo.png" alt="E-Cell" />
           </div>
         </div>
 
